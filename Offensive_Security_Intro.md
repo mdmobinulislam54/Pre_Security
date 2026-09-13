@@ -31,8 +31,7 @@ The goal is to find hidden pages on the FakeBank website.
 First, open the terminal and use **Dirb**:
 
 ```bash
-dirb http://fakeba
-nk.thm
+dirb http://fakebank.thm
 ```
 
 Dirb searches the website for common directories and files.
