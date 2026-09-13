@@ -31,11 +31,21 @@ Offensive Security
 
 TryHackMe provides a virtual machine containing **FakeBank**, a fake banking website.
 
-The goal is to find a weakness in the application. By opening **View Site** and exploring the website, we can see how a normal user interacts with it.
+Open **View Site** and explore the application. The task asks us to find the bank account number displayed in the FakeBank application.
 
-But websites can also contain pages that aren't visible or linked from the main page.
+### Question
 
-### 📁 What is a Directory?
+**What is the bank account number in the FakeBank application?**
+
+**Answer:**
+
+```text
+8881
+```
+
+---
+
+## 📁 What is a Directory?
 
 A **directory** is a location used to organize files or web resources.
 
@@ -61,7 +71,6 @@ Open the terminal and run:
 
 ```bash
 dirb http://fakebank.thm
-
 ```
 
 Dirb searches the website for common directories and files.
@@ -104,19 +113,23 @@ Deposit **$2000 or more**.
 
 After the transaction, return to the account page and confirm that the balance is positive.
 
-A popup with **green text** will appear. This is the final answer.
+A popup with green text will appear.
+
+### Question
+
+**When your balance turns positive, a pop-up with green text appears. Enter the green words as the answer (ALL CAPS).**
+
+**Answer:**
 
 ```text
-Final Flag: YOUR_FLAG_HERE
+BANK-HACKED
 ```
-
-Replace `YOUR_FLAG_HERE` with the exact green text shown in your TryHackMe lab.
 
 ---
 
 ## 🧠 What I Learned
 
-* Offensive vs Defensive Security
+* Difference between Offensive and Defensive Security
 * What a web directory is
 * What directory enumeration means
 * How to use **Dirb**
