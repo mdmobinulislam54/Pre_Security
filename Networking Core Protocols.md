@@ -421,6 +421,44 @@ C FETCH 4 body[]
 
 ```text id="q6n4sv"
 FETCH 4 body[]
+# Fundamental Network Protocols — Port Cheat Sheet
+
+| Protocol   | Transport | Default Port | Purpose                  |
+| ---------- | --------- | -----------: | ------------------------ |
+| **TELNET** | TCP       |       **23** | Remote terminal access   |
+| **DNS**    | UDP/TCP   |       **53** | Domain name resolution   |
+| **HTTP**   | TCP       |       **80** | Web communication        |
+| **HTTPS**  | TCP       |      **443** | Secure web communication |
+| **FTP**    | TCP       |       **21** | File transfer            |
+| **SMTP**   | TCP       |       **25** | Sending email            |
+| **POP3**   | TCP       |      **110** | Retrieving email         |
+| **IMAP**   | TCP       |      **143** | Email synchronization    |
+
+### 🧠 Quick Memory
+
+```text
+TELNET → 23
+DNS    → 53
+HTTP   → 80
+HTTPS  → 443
+FTP    → 21
+SMTP   → 25
+POP3   → 110
+IMAP   → 143
 ```
+
+### Key Points
+
+* **DNS** → resolves domain names to IP addresses.
+* **HTTP/HTTPS** → web communication.
+* **FTP** → file transfer.
+* **SMTP** → sends email.
+* **POP3** → retrieves/downloads email.
+* **IMAP** → synchronizes email across devices.
+* **TELNET** → remote terminal communication and is insecure because it uses plaintext.
+
+**Next:** Networking Secure Protocols → learn how these protocols can be secured.
+
+``
 
 **IMAP → TCP 143 → Email synchronization**
